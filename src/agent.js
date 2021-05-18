@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'hhttps://node-cicd-shibra.squareops.xyz/api';
+const API_ROOT = 'https://node-cicd-shibra.squareops.xyz/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
