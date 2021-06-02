@@ -3,7 +3,7 @@ import _superagent from 'superagent';
 
 const superagent = superagentPromise(_superagent, global.Promise);
 
-const API_ROOT = 'http://shibra-lb.squareops.xyz/api';
+const API_ROOT = 'https://shibra-lb.squareops.xyz/api';
 
 const encode = encodeURIComponent;
 const responseBody = res => res.body;
